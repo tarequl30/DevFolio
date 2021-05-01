@@ -1,0 +1,51 @@
+section {
+    padding-top: 50px;
+    background-color: #fffbfb;
+    /* background-image: url('../../../images/wave-parallax-02.svg'); */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.aboutImg {
+    /* margin-left: 20px; */
+    /* padding-bottom: 100px; */
+    /* margin-bottom: 50px; */
+}
+
+.aboutEassy {
+    padding-right: 50px;
+    margin-top: 140px;
+    margin-bottom: 40px;
+    /* margin-left: 10px; */
+}
+
+.aboutMe {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 900;
+    color: #353434;
+}
+
+.aboutEassy h1 {
+    color: #f8e51c;
+    font-size: 2.4em;
+    font-weight: 900;
+}
+
+.aboutEassy h5 {
+    line-height: 32px;
+    color: gray;
+    font-weight: 500;
+}
+
+.aboutEassy h4 {
+    font-weight: 800;
+    color: gray;
+    line-height: 40px;
+}
+
+.skill {
+    color: #f8e51c !important
+}

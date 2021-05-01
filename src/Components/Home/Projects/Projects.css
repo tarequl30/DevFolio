@@ -1,0 +1,24 @@
+.projects {
+    padding: 0 50px;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    background-color: #fffbfb;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 900;
+    color: #353434;
+}
+
+.projectName {
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: 900;
+    color: #353434;
+}
+
+/* .cardSize {
+    height: 200px;
+} */

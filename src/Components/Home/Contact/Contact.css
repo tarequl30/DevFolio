@@ -1,0 +1,73 @@
+.conatct {
+    padding-top: 100px;
+    background-color: #fffbfb;
+    /* background: linear-gradient(to right,
+
+            #a1a19f 0%,
+            #a1a19f 50%,
+            #3a3524 50%,
+            #3a3524 100%); */
+}
+
+.address {
+    /* background-image: url('../../../images/undraw_Forms_re_pkrt.svg'); */
+    padding-bottom: 350px;
+    padding-top: 50px;
+    padding-left: 170px;
+}
+
+.address h1 {
+    font-weight: 700;
+    font-size: 2em;
+    color: #f8e51c;
+}
+
+.address h4 {
+    font-weight: 300;
+    color: #3a3524;
+}
+
+.textField {
+    color: #f8e51c;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+
+.textField {
+    font-weight: 700;
+    font-size: 2em;
+    color: #f8e51c;
+}
+
+input {
+    margin-right: 10px;
+    outline: #3a3524;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e0dfda;
+}
+
+.messageBox {
+    padding: 80px 240px;
+}
+
+.submitBtn {
+    outline: none;
+    padding-left: 20px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+    padding: 7px 15px;
+    font-weight: 700;
+    color: #3a3524;
+    background-color: #f8e51c;
+}
+
+.inputName {
+    color: #3a3524;
+    font-weight: 800;
+}

@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(to right,
+
+            #3a3524 0%,
+            #3a3524 50%,
+            #a1a19f 50%,
+            #cacac9 100%);
+    /* background: linear-gradient(to right, #ca9a14, #faf8f8) */
+    /* background-image: url('/src/images/wave-parallax-02.svg'); */
+}
+
+.mainSection {
+    margin-top: 80px;
+}
+
+/* .mainSection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(204, 176, 50);
+} */
+/* .mainSection {
+
+    background-color: #34caaa;
+
+} */
+main {
+    height: 650px;
+}
+
+.mainBody {
+    /* margin-top: 60px; */
+    color: black;
+    margin-left: 20px
+}
+
+.devImg {
+    background-position: bottom;
+    /* margin-left: 30px; */
+    /* background-position: center; */
+    background-size: cover;
+    background-image: url('../../../images/undraw_programming_2svr.svg');
+}
+
+
+/* .devImg img {
+    margin-left: 150px;
+} */
+
+.resumeBtn {
+    outline: none;
+    padding-left: 20px;
+    margin-top: 30px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 7px;
+    padding: 7px 15px;
+    font-weight: 700;
+    background-color: #f8e51c;
+}
+
+/* .devPart h1 {
+    color: #f8e51c !important;
+} */
+
+.devPart {
+
+    margin-top: 80px;
+
+}
+
+/* .typing {
+    font-size: 10;
+    font-weight: 120;
+} */
+
+.name {
+    color: #a1a19f;
+    font-size: 85px;
+    font-weight: 800;
+    /* background: -webkit-linear-gradient(rgb(3, 3, 3), rgb(216, 222, 223)); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+}
+
+.typing {
+    position: relative;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ffff;
+    padding: 5px 10px;
+}
+
+.typing::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    width: 100%;
+    color: #f8e51c;
+    background: #3a3524;
+    -webkit-animation: typing 4s steps(13) forwards, caret 1s infinite alternate;
+    animation: typing 4s steps(13) forwards, caret 1s infinite;
+}
+
+@-webkit-keyframes typing {
+    to {
+        width: 0;
+    }
+}
+
+@keyframes typing {
+    to {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes caret {
+    50% {
+        color: transparent;
+    }
+}
+
+@keyframes caret {
+    50% {
+        color: transparent;
+    }
+}

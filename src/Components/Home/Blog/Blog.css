@@ -1,0 +1,42 @@
+.blog {
+    padding: 80px 120px;
+    background-color: #dbd8d8;
+}
+
+.exploreBtn {
+    outline: none;
+    padding-left: 20px;
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-weight: 700;
+    color: #3a3524;
+    background-color: #f8e51c;
+}
+
+.blogs {
+    background-color: #dbd8d8;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 10px 15px gray;
+}
+
+.card-title {
+    color: #f8e51c;
+    font-size: 2em;
+    font-weight: 900;
+
+}
+
+.card-text {
+    color: gray;
+    font-weight: 600;
+}
+
+.cardHeight {
+    height: 500px;
+}
