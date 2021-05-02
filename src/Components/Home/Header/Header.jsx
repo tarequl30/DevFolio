@@ -1,7 +1,5 @@
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import img from '../../../images/undraw_programming_2svr.png'
-import resume from '../../../images/TarequlDevResume-page-001.jpg'
 import React from 'react';
 import './Header.css'
 const Header = () => {

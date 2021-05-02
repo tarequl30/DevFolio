@@ -12,45 +12,17 @@
     /* background-image: url('/src/images/wave-parallax-02.svg'); */
 }
 
-.mainSection {
-    /* margin-top: 80px; */
-}
-
-/* .mainSection {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    background-color: rgb(204, 176, 50);
-} */
-/* .mainSection {
-
-    background-color: #34caaa;
-
-} */
-/* main {
-    height: 485px;
-} */
 
 .mainBody {
-    /* margin-top: 60px; */
     color: black;
-    /* margin-left: 20px; */
 }
 
 .devImg {
-    /* background-position: bottom; */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url('../../../images/undraw_programming_2svr.svg');
 }
-
-
-/* .devImg img {
-    margin-left: 150px;
-} */
 
 .resumeBtn {
     outline: none;
@@ -66,28 +38,15 @@
     background-color: #f8e51c;
 }
 
-/* .devPart h1 {
-    color: #f8e51c !important;
-} */
-
 .devPart {
-    /* margin: 0 100px; */
     margin-top: 0px;
 
 }
-
-/* .typing {
-    font-size: 10;
-    font-weight: 120;
-} */
 
 .name {
     color: #a1a19f;
     font-size: 85px;
     font-weight: 800;
-    /* background: -webkit-linear-gradient(rgb(3, 3, 3), rgb(216, 222, 223)); */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
 }
 
 .typing {
@@ -104,7 +63,7 @@
     right: 0;
     width: 100%;
     color: #f8e51c;
-    background: #3a3524;
+    background: #eeeeec;
     -webkit-animation: typing 4s steps(13) forwards, caret 1s infinite alternate;
     animation: typing 4s steps(13) forwards, caret 1s infinite;
 }

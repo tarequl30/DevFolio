@@ -1,7 +1,4 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { Swiper } from 'swiper';
 import project from '../../../images/emajhon.png'
 import project1 from '../../../images/Screenshot (65).png'
 import project2 from '../../../images/Screenshot (66).png'
@@ -27,7 +24,7 @@ const Proejcts = () => {
                     <div class="card">
                         <img src={project} class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="card-title">EmaJhon Commerce</h5>
+                            <h5 class="card-title">EmaJhon Commerce</h5> <a href="https://fake-emajhon.firebaseapp.com/shop" target="_blank" rel="noreferrer" > Live Site</a>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
@@ -36,7 +33,7 @@ const Proejcts = () => {
                     <div class="card">
                         <img src={project1} class="card-img-top" alt="..." />
                         <div class="card-body">
-                            <h5 class="card-title">CAR REPAIR</h5>
+                            <h5 class="card-title">CAR REPAIR</h5> <a href="https://car-service-3a75c.web.app/" target="_blank" rel="noreferrer" > Live Site</a>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                         </div>
                     </div>
@@ -45,7 +42,7 @@ const Proejcts = () => {
                     <div class="card">
                         <img src={project2} class="card-img-top" alt="..." width="50%" />
                         <div class="card-body">
-                            <h5 class="card-title">E-SCHOOL</h5>
+                            <h5 class="card-title">E-SCHOOL</h5> <a href="https://tarequl30.github.io/e-school-remake/" target="_blank" rel="noreferrer" > Live Site</a>
                             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
                     </div>
