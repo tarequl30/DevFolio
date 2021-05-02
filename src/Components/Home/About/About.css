@@ -10,17 +10,19 @@ section {
 }
 
 .aboutImg {
-    padding-left: 120px;
+    padding-bottom: 70px;
+    /* padding-bottom: 80px; */
+    padding-left: 60px;
     /* margin-left: 20px; */
     /* padding-bottom: 100px; */
     /* margin-bottom: 50px; */
 }
 
 .aboutEassy {
+    padding-bottom: 70px;
     padding-right: 120px;
-    margin-top: 140px;
-    margin-bottom: 40px;
-    /* margin-left: 10px; */
+    margin-top: 120px;
+
 }
 
 .aboutMe {
@@ -32,12 +34,12 @@ section {
 
 .aboutEassy h1 {
     color: #f8e51c;
-    font-size: 2.4em;
-    font-weight: 900;
+    font-size: 2em;
+    font-weight: 800;
 }
 
 .aboutEassy h5 {
-    line-height: 32px;
+
     color: gray;
     font-weight: 500;
 }
@@ -45,7 +47,7 @@ section {
 .aboutEassy h4 {
     font-weight: 800;
     color: gray;
-    line-height: 40px;
+    /* line-height: 40px; */
 }
 
 .skill {

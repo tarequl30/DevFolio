@@ -6,10 +6,10 @@ import './About.css'
 const About = () => {
     return (
         <section className="about">
+            <h1 className="aboutMe">ABOUT ME</h1>
             <div className="row">
-                <h1 className="aboutMe">ABOUT ME</h1>
                 <div className="col-md-6 aboutImg">
-                    <img src={dev} alt="" width="80%" />
+                    <img src={dev} alt="" width="90%" />
                 </div>
                 <div className="col-md-6 aboutEassy">
                     <h1>A SELF TAUGHT <span className="colorWeb">WEB DEVELOPER</span></h1>

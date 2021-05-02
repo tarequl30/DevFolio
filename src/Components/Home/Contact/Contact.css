@@ -1,5 +1,5 @@
 .conatct {
-    padding-top: 100px;
+    padding-top: 100px 120px;
     background-color: #fffbfb;
     /* background: linear-gradient(to right,
 
@@ -11,9 +11,9 @@
 
 .address {
     /* background-image: url('../../../images/undraw_Forms_re_pkrt.svg'); */
-    padding-bottom: 350px;
-    padding-top: 50px;
-    padding-left: 170px;
+    /* padding-bottom: 350px;
+    padding-top: 50px; */
+    padding: 60px 120px;
 }
 
 .address h1 {
@@ -30,7 +30,7 @@
 .textField {
     color: #f8e51c;
     padding-top: 50px;
-    padding-left: 300px;
+    /* padding-left: 300px; */
 }
 
 .textField {
@@ -42,17 +42,18 @@
 input {
     margin-right: 10px;
     outline: #3a3524;
-    padding: 10px 70px;
+    padding: 10px 50px;
     border: none;
     border-radius: 5px;
     background-color: #e0dfda;
 }
 
 .messageBox {
-    padding: 80px 240px;
+    padding: 70px 190px;
 }
 
 .submitBtn {
+    margin-bottom: 60px;
     outline: none;
     padding-left: 20px;
     margin-top: 30px;
