@@ -4,10 +4,10 @@
     background: linear-gradient(to right,
             /* #3a3524 0%,
     #3a3524 50%, */
-            #383423dc 0%,
-            #383423dc 50%,
-            #f1eeee 50%,
-            #f1eeee 100%);
+            #3a3524 0%,
+            #3a3524 50%,
+            #fefefe 50%,
+            #fefefe 100%);
     /* background: linear-gradient(to right, #ca9a14, #faf8f8) */
     /* background-image: url('/src/images/wave-parallax-02.svg'); */
 }
@@ -19,9 +19,9 @@
 
 .devImg {
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('../../../images/undraw_programming_2svr.svg');
+    background-image: url('../../../images/developer.svg');
 }
 
 .resumeBtn {
@@ -35,7 +35,7 @@
     border-radius: 7px;
     padding: 7px 15px;
     font-weight: 700;
-    background-color: #f8e51c;
+    background-color: #f1eeee;
 }
 
 .devPart {
@@ -57,13 +57,50 @@
     padding: 5px 10px;
 }
 
+/* 
+.cursor {
+    position: relative;
+    font-size: 2rem !important;
+    font-weight: 600;
+    color: #ffff;
+    padding: 5px 10px;
+    display: inline-block;
+    position: relative;
+}
+
+.cursor::after {
+    content: "";
+    margin: auto;
+    position: absolute;
+    right: -4px;
+    top: -3px;
+    width: 1px;
+    height: 100%;
+    background-color: #666;
+    animation: cursor-animation .5s step-end infinite alternate;
+}
+
+@keyframes cursor-animation {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+} */
+
 .typing::after {
     content: "|";
     position: absolute;
     right: 0;
     width: 100%;
     color: #f8e51c;
-    background: #eeeeec;
+    background: #222222;
     -webkit-animation: typing 4s steps(13) forwards, caret 1s infinite alternate;
     animation: typing 4s steps(13) forwards, caret 1s infinite;
 }

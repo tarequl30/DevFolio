@@ -5,6 +5,10 @@
     background-color: #fffbfb;
 }
 
+.card-title {
+    color: #353434;
+}
+
 .title {
     text-align: center;
     font-size: 2.4em;

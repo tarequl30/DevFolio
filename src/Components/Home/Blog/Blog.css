@@ -11,8 +11,8 @@
     padding: 10px 20px;
     margin-right: 10px;
     font-weight: 700;
-    color: #3a3524;
-    background-color: #f8e51c;
+    color: #e7e6e1;
+    background-color: #353434;
 }
 
 .blogs {
@@ -26,7 +26,7 @@
 }
 
 .card-title {
-    color: #f8e51c;
+    color: #353434;
     font-size: 2em;
     font-weight: 900;
 

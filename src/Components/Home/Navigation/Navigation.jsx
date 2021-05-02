@@ -2,7 +2,7 @@
 import { faFacebook, faGithub, faLinkedin, faMedium, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from '../../../images/yellow-pages-turkey-logo-6D09162597-seeklogo.com.png'
+import logo from '../../../images/men.png'
 import React from 'react';
 import './Navigation.css'
 import { Link } from 'react-router-dom';

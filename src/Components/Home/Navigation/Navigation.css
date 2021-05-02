@@ -26,10 +26,10 @@ a {
     background: linear-gradient(to right,
             /* #3a3524 0%,
 #3a3524 50%, */
-            #383423dc 0%,
-            #383423dc 50%,
-            #f1eeee 50%,
-            #f1eeee 100%);
+            #383423 0%,
+            #383423 50%,
+            #fefefe 50%,
+            #fefefe 100%);
     padding: 1em;
     /* background: white; */
     width: 100%;
@@ -80,7 +80,7 @@ a {
     border-radius: 7px;
     padding: 7px 15px;
     font-weight: 700;
-    background-color: #f8e51c;
+    background-color: #dadbdb8a;
     color: #121212;
 
     transition: 0.1s border linear;
@@ -120,7 +120,7 @@ a {
 
 .social-icons li a:hover {
     padding: 5px 10px;
-    background: #f8e51c;
+    background: #f1eeee;
     color: #3a3524;
 }
 

@@ -1,6 +1,6 @@
 .conatct {
     padding-top: 100px 120px;
-    background-color: #fffbfb;
+    background-color: #c0859c81;
     /* background: linear-gradient(to right,
 
             #a1a19f 0%,
@@ -19,7 +19,7 @@
 .address h1 {
     font-weight: 700;
     font-size: 2em;
-    color: #f8e51c;
+    color: #353434;
 }
 
 .address h4 {
@@ -28,7 +28,7 @@
 }
 
 .textField {
-    color: #f8e51c;
+    color: #353434;
     padding-top: 50px;
     /* padding-left: 300px; */
 }
@@ -36,7 +36,7 @@
 .textField {
     font-weight: 700;
     font-size: 2em;
-    color: #f8e51c;
+    color: #353434;
 }
 
 input {
@@ -64,8 +64,8 @@ input {
     border-radius: 7px;
     padding: 7px 15px;
     font-weight: 700;
-    color: #3a3524;
-    background-color: #f8e51c;
+    color: #e6e5e4;
+    background-color: #353434cc;
 }
 
 .inputName {
