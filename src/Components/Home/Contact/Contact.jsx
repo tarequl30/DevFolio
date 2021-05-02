@@ -1,6 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import './Contact.css'
+import { Alert } from 'react-bootstrap';
 const Contact = () => {
+    const [message, setMessage] = useState(null)
+
+    function sendEmail(e) {
+        e.preventDefault();
+
+        emailjs.sendForm('service_of6z7ch', 'template_ot5vqln', e.target, 'user_YEJpCJyk7MSKGKwmteyHR')
+            .then((result) => {
+                setMessage('Mail sent succesfully')
+                document.forms["contactForm"].reset()
+                setTimeout(() => {
+                    setMessage(null)
+                }, 3000);
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+
+    }
     return (
         <section className="conatct">
             <div className="row ">
@@ -13,24 +33,32 @@ const Contact = () => {
                 </div>
                 <div className="col-md-6">
                     <h1 className="textField">LEAVE ME A MESSAGE</h1>
-                    <div className="d-flex mt-5">
-                        <div>
-                            <h3 className="inputName">Name</h3>
-                            <input className="" type="text" name="" id="" placeholder="Your Name" />
+
+                    <form name="contactForm" action="" onSubmit={sendEmail} >
+                        <div className="d-flex mt-5">
+                            <div>
+                                <h3 className="inputName">Name</h3>
+                                <input className="" type="text" name="name" id="" placeholder="Your Name" />
+                            </div>
+                            <div>
+                                <h3 className="inputName">Email</h3>
+                                <input type="email" name="email" id="" placeholder="Email" />
+                            </div>
                         </div>
+                        {/* <textarea name="message" />
+                        <input type="submit" value="Send" /> */}
+                        <input className="messageBox mt-5" name="text" type="text" placeholder="Your Text" />
                         <div>
-                            <h3 className="inputName">Email</h3>
-                            <input type="email" name="" id="" placeholder="Email" />
+                            <button type="submit" value="Send" className="submitBtn">SUBMIT</button>
+                            {
+                                message && <Alert variant="success">{message}</Alert>
+                            }
                         </div>
-                    </div>
-                    <input className="messageBox mt-5" type="text" placeholder="Your Text" />
-                    <div>
-                        <button className="submitBtn">SUBMIT</button>
-                    </div>
+                    </form>
                 </div>
 
             </div>
-
+            <p className="text-center"><small>copyright reserved by @TreqBroooh || 2021 </small></p>
         </section>
     );
 };

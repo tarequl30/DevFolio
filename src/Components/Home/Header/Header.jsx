@@ -6,7 +6,7 @@ import React from 'react';
 import './Header.css'
 const Header = () => {
     return (
-        <main className="container mainSection">
+        <main className=" mainSection">
             <div className="row mainBody">
                 <div className="col-md-6 devPart">
                     <h1 ><span className="name">Hi I'm Tareq </span><br /> <span className="typing">A Front-End Web Developer</span> </h1>

@@ -23,6 +23,13 @@ a {
 }
 
 .nav-center {
+    background: linear-gradient(to right,
+            /* #3a3524 0%,
+#3a3524 50%, */
+            #383423dc 0%,
+            #383423dc 50%,
+            #f1eeee 50%,
+            #f1eeee 100%);
     padding: 1em;
     /* background: white; */
     width: 100%;

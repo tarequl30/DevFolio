@@ -1,16 +1,18 @@
-body {
+.mainSection {
+    padding: 90px 130px;
     background: linear-gradient(to right,
-
-            #3a3524 0%,
-            #3a3524 50%,
-            #a1a19f 50%,
-            #cacac9 100%);
+            /* #3a3524 0%,
+    #3a3524 50%, */
+            #383423dc 0%,
+            #383423dc 50%,
+            #f1eeee 50%,
+            #f1eeee 100%);
     /* background: linear-gradient(to right, #ca9a14, #faf8f8) */
     /* background-image: url('/src/images/wave-parallax-02.svg'); */
 }
 
 .mainSection {
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 /* .mainSection {
@@ -37,10 +39,10 @@ main {
 }
 
 .devImg {
-    background-position: bottom;
-    /* margin-left: 30px; */
-    /* background-position: center; */
-    background-size: cover;
+    /* background-position: bottom; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-image: url('../../../images/undraw_programming_2svr.svg');
 }
 
@@ -68,7 +70,7 @@ main {
 } */
 
 .devPart {
-
+    /* margin: 0 100px; */
     margin-top: 80px;
 
 }
