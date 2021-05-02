@@ -14,7 +14,7 @@ const Blog = () => {
                     <div className="cardHeight card h-100">
                         <img src={html} class="card-img-top" alt="..." width="30%" height="40%" />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Basic HTML</h5>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab molestiae quas debitis animi corporis ullam odit minus. Sunt repellendus reprehenderit sint nemo illum eveniet, quae, odit rerum debitis dicta voluptates accusamus maiores veritatis nobis quod voluptate tempora id possimus culpa.</p>
                         </div>
                         <div class="card-footer">
@@ -26,7 +26,7 @@ const Blog = () => {
                     <div class="card h-100">
                         <img src={css} class="card-img-top" alt="..." width="50%" height="40%" />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Deep Dive with CSS</h5>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab molestiae quas debitis animi corporis ullam odit minus. Sunt repellendus reprehenderit sint nemo illum eveniet, quae, odit rerum debitis dicta voluptates accusamus maiores veritatis nobis quod voluptate tempora id possimus culpa.</p>
                         </div>
                         <div class="card-footer">
@@ -38,7 +38,7 @@ const Blog = () => {
                     <div class="card h-100">
                         <img src={js} class="card-img-top" alt="..." width="50%" height="40%" />
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">JS Fundamental</h5>
                             <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab molestiae quas debitis animi corporis ullam odit minus. Sunt repellendus reprehenderit sint nemo illum eveniet, quae, odit rerum debitis dicta voluptates accusamus maiores veritatis nobis quod voluptate tempora id possimus culpa.</p>
                         </div>
                         <div class="card-footer">
