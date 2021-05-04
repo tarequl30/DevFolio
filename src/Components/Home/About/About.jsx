@@ -7,7 +7,7 @@ const About = () => {
     return (
         <section className="about">
             <h1 className="aboutMe">ABOUT ME</h1>
-            <div className="row">
+            <div className="aboutParent row">
                 <div className="col-md-6 aboutImg">
                     <img src={dev} alt="" width="90%" />
                 </div>

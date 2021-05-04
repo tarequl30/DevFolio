@@ -8,6 +8,7 @@
             #3a3524 50%,
             #fefefe 50%,
             #fefefe 100%);
+    box-shadow: rgb(#3a3524 5%) 0px 5px 10px;
     /* background: linear-gradient(to right, #ca9a14, #faf8f8) */
     /* background-image: url('/src/images/wave-parallax-02.svg'); */
 }
@@ -94,7 +95,7 @@
     }
 } */
 
-.typing::after {
+/* .typing::after {
     content: "|";
     position: absolute;
     right: 0;
@@ -126,5 +127,18 @@
 @keyframes caret {
     50% {
         color: transparent;
+    }
+} */
+
+@media screen and (max-width: 768px) {
+    .mainSection {
+        padding-top: 0;
+        margin-top: 0;
+        display: flex;
+        place-items: center;
+    }
+
+    .typing {
+        color: #050505;
     }
 }

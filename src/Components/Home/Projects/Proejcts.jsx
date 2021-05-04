@@ -9,7 +9,7 @@ const Proejcts = () => {
     return (
         <section className="projects" >
             <h1 className="text-center pb-5 title">PROJETS</h1>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row row-cols-1 row-cols-md-2 g-4 d-flex flex-wrap">
                 <div className="col ">
                     <div class="card cardSize">
                         <img src={project3} class="card-img-top" alt="..." />

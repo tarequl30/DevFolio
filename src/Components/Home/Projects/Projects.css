@@ -23,6 +23,15 @@
     color: #353434;
 }
 
-/* .cardSize {
-    height: 200px;
-} */
+@media screen and (max-width: 768px) {
+    .mainSection {
+        padding-top: 0;
+        margin-top: 0;
+        display: flex;
+        place-items: center;
+    }
+
+    .typing {
+        color: #050505;
+    }
+}
