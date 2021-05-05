@@ -26,13 +26,13 @@ a {
     background: linear-gradient(to right,
             /* #3a3524 0%,
 #3a3524 50%, */
-            #383423 0%,
-            #383423 50%,
-            #fefefe 50%,
-            #fefefe 100%);
+            #51b6b9 0%,
+            #51b6b9 50%,
+            #51b6b9 50%,
+            #51b6b9 100%);
     padding: 1em;
     /* background: white; */
-    width: 100%;
+    width: 50%;
     /*   align-items:center; */
     /*   justify-content: space-between; */
     width: 100%;
@@ -141,7 +141,7 @@ a {
     outline: none;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
     .nav-toggle {
         display: none;
     }

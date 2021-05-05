@@ -9,9 +9,9 @@ import { faMedium } from '@fortawesome/free-brands-svg-icons';
 
 const Blog = () => {
     return (
-        <div className="blogs">
+        <div className="container blogs">
             <h1 className="text-center pt-5 title">BLOGS</h1>
-            <div class=" blog row row-cols-1 row-cols-md-3 g-4 pt-5">
+            <div class=" blog row row-cols-1 row-cols-md-3 g-4 pt-5 mb-5">
                 <div class="col cardHeight ">
                     <div className="cardHeight card h-80">
                         <img src={emailjs} class="card-img-top" alt="..." width="30%" height="40%" />

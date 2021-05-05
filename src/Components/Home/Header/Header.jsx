@@ -31,7 +31,7 @@ const Header = () => {
         [magicName]
     );
     return (
-        <main className=" mainSection">
+        <main className="container mainSection">
             <div className="row mainBody d-flex flex-wrap">
                 <div className="col-md-6 devPart">
                     <h1 ><span className="name">Hi I'm Tareq </span><br /> <span className="typing">A Front-End Web Developer </span> </h1>

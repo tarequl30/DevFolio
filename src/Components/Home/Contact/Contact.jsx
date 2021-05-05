@@ -22,7 +22,7 @@ const Contact = () => {
 
     }
     return (
-        <section className="conatct">
+        <div className="container contact">
             <div className="row ">
                 <div className="col-md-6 address">
                     {/* <img src="" alt=""/> */}
@@ -59,7 +59,7 @@ const Contact = () => {
 
             </div>
             <p className="text-center"><small>copyright reserved by @TreqBroooh || 2021 </small></p>
-        </section>
+        </div>
     );
 };
 
