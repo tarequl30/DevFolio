@@ -5,7 +5,7 @@ import dev from '../../../images/29354755_1648288675264901_1455147167885371789_o
 import './About.css'
 const About = () => {
     return (
-        <section className="container-fluid about">
+        <section className="container about">
             <h1 className="aboutMe">ABOUT ME</h1>
             <div className="aboutParent row">
                 <div className="col-md-6 aboutImg">

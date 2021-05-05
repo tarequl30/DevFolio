@@ -43,10 +43,6 @@
     width: 70%;
 }
 
-/* .cardHeight {
-    height: 550px;
-} */
-
 @media screen and (max-width: 768px) {
 
     .blog {
@@ -56,9 +52,8 @@
         /* background-color: #f1eeee; */
     }
 
-    /* [class*="grid-row-end: ;cols-md-3"] {
-        width: 100%;
-    } */
+    .blog {
+        margin-left: 30px;
+    }
 
-    /* cols-md-3 */
 }

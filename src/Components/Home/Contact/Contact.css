@@ -12,6 +12,7 @@
 
 
 .address {
+    padding-top: 60px;
     /* background-image: url('../../../images/undraw_Forms_re_pkrt.svg'); */
     /* padding-bottom: 350px;
     padding-top: 50px; */
@@ -41,7 +42,12 @@
     color: #353434;
 }
 
+.fromLayout {
+    display: inline-block;
+}
+
 input {
+
     margin-right: 10px;
     outline: #3a3524;
     padding: 10px 25px;
@@ -73,4 +79,14 @@ input {
 .inputName {
     color: #3a3524;
     font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+    .fromLayout {
+        display: inline;
+    }
+
+    form {
+        display: inline-block;
+    }
 }

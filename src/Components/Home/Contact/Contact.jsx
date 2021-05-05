@@ -31,11 +31,11 @@ const Contact = () => {
                         Bahaddarhat, Asian Housing , 3/A <br /> Chittagong || 4212</h4>
                     <h4 className="mt-5">tarequl30@gmail.com <br /> 0088 018 40 333 921</h4>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 fromLayout">
                     <h1 className="textField">LEAVE ME A MESSAGE</h1>
 
                     <form name="contactForm" action="" onSubmit={sendEmail} >
-                        <div className="d-flex mt-5">
+                        <div className=" mt-5">
                             <div>
                                 <h3 className="inputName">Name</h3>
                                 <input className="" type="text" name="name" id="" placeholder="Your Name" />
