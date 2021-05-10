@@ -1,8 +1,6 @@
 .blog {
-    /* padding: 0; */
-    /* background-color: #f1eeee; */
+    background-color: #dfdbdb;
 }
-
 
 .exploreBtn {
     outline: none;
@@ -14,10 +12,6 @@
     font-weight: 700;
     color: #e7e6e1;
     background-color: #353434;
-}
-
-.blogs {
-    /* background-color: #f1eeee; */
 }
 
 .card {

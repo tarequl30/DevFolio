@@ -1,11 +1,9 @@
+import React from 'react';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
 import './Header.css'
 import { useState, useEffect, useRef } from "react";
-import ReactDOM from "react-dom";
 import useTypewriter from "react-typewriter-hook";
-import dev from '../../../images/devops-development-operations-work-illustration-concept-with-characters-light-bulb_269730-117.jpg'
 
 const MagicOcean = [
     "A Front-End Web Developer",
@@ -31,19 +29,21 @@ const Header = () => {
         [magicName]
     );
     return (
-        <main className="container mainSection">
-            <div className="row mainBody d-flex flex-wrap">
-                <div className="col-md-6 devPart">
-                    <h1 ><span className="name">Hi I'm Tareq </span><br /> <span className="typing">A Front-End Web Developer </span> </h1>
-                    {/* <p className="cursor">{name}</p> */}
-                    {/* <h2>Cool! haah! </h2> */}
-                    <a href="http://drive.google.com/uc?export=download&id=1CbsP9D3DFL16hLpX3ZyZH4UxT1Q5rtjY" type="button" > <button className="resumeBtn">  <FontAwesomeIcon icon={faDownload} />  RESUME</button> </a>
+        <div className="headerBg">
+            <main className="container mainSection">
+                <div className="row mainBody d-flex flex-wrap">
+                    <div className="col-md-6 devPart">
+                        <h1 ><span className="name">Hi I'm Tareq </span><br /> <span className="typing">A Front-End Web Developer </span> </h1>
+                        {/* <p className="cursor">{name}</p> */}
+                        {/* <h2>Cool! haah! </h2> */}
+                        <a href="http://drive.google.com/uc?export=download&id=1CbsP9D3DFL16hLpX3ZyZH4UxT1Q5rtjY" type="button" > <button className="resumeBtn">  <FontAwesomeIcon icon={faDownload} />  RESUME</button> </a>
+                    </div>
+                    <div className="col-md-6 devImg">
+                        {/* <img src={dev} alt="" width="80%" /> */}
+                    </div>
                 </div>
-                <div className="col-md-6 devImg">
-                    {/* <img src={dev} alt="" width="80%" /> */}
-                </div>
-            </div>
-        </main>
+            </main>
+        </div>
     );
 };
 
